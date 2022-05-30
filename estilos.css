@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(198, 186, 252);
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+.contenedor{
+    margin: 30px;
+    width: 250px;
+    height: 200px;
+    background-color:lightgray;
+    padding: 5px;
+    display: flex;
+
+    /* regresar como estaba */
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
+    
+}
+
+
+.cabecera{
+    height: 30px;
+    padding-top: 5px;
+    width: 100%;
+    background-color: rgb(114, 127, 240);
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    box-shadow: 2px 2px 10px black inset;
+    border-radius: 5px;
+
+}
+
+#cal{
+    position: relative;
+    left: 25px;
+}
+
+#guardar{
+    background-color: rgb(141, 116, 165);
+    color: white;
+    border: 1px solid white;
+    position: relative;
+    left: 50px;
+}
+
+#listado{
+    background-color: blueviolet;
+    border-radius: 5px;
+    position: absolute;
+    left: 400px;
+    top: 20px;
+    margin: 30px;
+    padding: 5px;
+    width: 50%;
+    height: 350px;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 3px 3px 5px black;
+    overflow: scroll;
+}
+
+table{
+    background-color: rgb(132, 99, 163);
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+    margin: 5px auto;
+}
+
+th{
+    font-size: 15px;
+    background-color: rgb(89, 60, 116);
+    text-align: center;
+    
+}
+
+td{
+    text-align: center;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    box-shadow: 1px 1px 2px black inset;
+}
+
+tr{
+    height: 35px;
+    
+}
+
+tr:nth-child(2n+1){
+    background-color: rgb(196, 170, 217);
+}
+
+.btn-alumno{
+    background-color: red;
+    color: white;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px black,
+                1px 1px 3px white inset;
+    font-size: 10px;
+    text-decoration: none;
+    margin-right: 3px;
+    width: 60px;
+    height: 20px;
+    font-size: 14px;
+}
+
+.btn-alumno:hover{
+    background-color: white;
+    color: red;
+}
+
+
+#bot {
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje{
+    font-size: 25px;
+    font-family: fantasy;
+    position: absolute;
+    left: 35px;
+    top: 280px;
+    background-color: yellow;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+    box-shadow: 10px 10px 20px black;
+}
+
+#actualizar{
+    background-color: rgb(141, 116, 165);
+    color: white;
+    border: 1px solid white;
+    position: relative;
+    left: 50px;
+}
